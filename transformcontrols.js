@@ -1088,7 +1088,7 @@ THREE.TransformControls = function ( camera, domElement ) {
 	}
 
 	function intersectObjects( pointer, objects ) {
-		/*
+
 		var rect = domElement.getBoundingClientRect();
 		var x = (pointer.clientX - rect.left) / rect.width;
 		var y = (pointer.clientY - rect.top) / rect.height;
@@ -1099,7 +1099,7 @@ THREE.TransformControls = function ( camera, domElement ) {
 
 		var intersections = ray.intersectObjects( objects, true );
 		return intersections[0] ? intersections[0] : false;
-		*/
+
 	}
 
 };
